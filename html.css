@@ -1,0 +1,84 @@
+
+body{margin: 0;
+    padding: auto;
+    font-family: Arial, sans-serif;
+    color:white;
+    overflow-x:hidden; /* ===== STARS ===== */  
+      background: linear-gradient(to bottom, #020111, #0a1a3a, #020111);
+}
+
+.star {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: white;
+    border-radius: 50%;opacity: 0.7;
+    animation: twinkle 2s infinite alternate;
+}
+
+.navbar{
+    display: flex; justify-content: space-between; align-items: center;
+     height: 90px; color: aliceblue;
+         background: rgba(0,0,0,0.4);
+
+     padding: 15px 30px;
+    font-size: 18px; }
+ 
+/* RIGHT SIDE TEXT */
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* LEFT SIDE MENU */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links a{
+    color: #dbeafe;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links a:hover{
+color: antiquewhite;
+}
+
+   .start {
+    text-align: center;
+    padding: 100px 40px ;
+ }
+   .start h1{
+    color: white;
+    font-size: 45px;
+}
+
+.moon{
+    
+  width:180px;
+  height:180px;
+  background: radial-gradient(circle at 30% 30%, #fff, #dfe6e9, #b2bec3);
+  border-radius:50%;
+  box-shadow: 0 0 60px rgba(255,255,255,0.6);
+  position:absolute;
+  top:200px;
+  right:120px;
+}
+section{
+    width: 85%;
+    margin: 20px auto;padding: 20px;
+    line-height: 25px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+}
+.pic {
+  display: flex; justify-content: center;}
+  .img{
+    
+    width: 400px;
+  border-radius: 10px; border:  3px solid white;
+ }
+ footer{
+  text-align: center;
+ }
